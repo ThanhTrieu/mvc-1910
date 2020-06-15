@@ -20,7 +20,7 @@ class Home
 				'id' => 1,
 				'name' => 'samsung s10',
 				'price' => 19000000,
-				'img' => 'src="https://cdn.tgdd.vn/Products/Images/42/213591/oppo-reno3-trang-600x600-400x400.jpg"'
+				'img' => 'https://cdn.tgdd.vn/Products/Images/42/213591/oppo-reno3-trang-600x600-400x400.jpg'
 			],
 			[
 				'id' => 2,

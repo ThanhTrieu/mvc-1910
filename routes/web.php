@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 // khong duoc phep truy cap truc tiep vao file
 if(!defined('ROOT_PATH')){
 	die('Can not access');

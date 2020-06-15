@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71599d07-4923-4a02-80a2-787564c2833f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/controller/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/model/Home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/view/home/index_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/view/partials/footer_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/view/partials/header_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mvc-1910.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mvc-1910.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/controller/ContactController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/controller/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/model/Login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/view/contact/index_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/view/login/index_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controller/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controller/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/model/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/model/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/view/home/index_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/view/home/index_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/view/partials/header_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/view/partials/header_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,7 @@
       <workItem from="1591850380077" duration="14000" />
       <workItem from="1591861402168" duration="461000" />
       <workItem from="1591928611476" duration="345000" />
-      <workItem from="1592216362177" duration="4735000" />
+      <workItem from="1592216362177" duration="10199000" />
     </task>
     <servers />
   </component>
@@ -88,14 +91,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="439" key="NewPhpFileDialog" timestamp="1592223902855">
+    <state x="721" y="439" key="NewPhpFileDialog" timestamp="1592229670439">
       <screen x="0" y="23" width="1920" height="993" />
     </state>
     <state x="541" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1591804892117" />
-    <state x="721" y="439" key="NewPhpFileDialog/0.23.1920.993@0.23.1920.993" timestamp="1592223902855" />
-    <state x="469" y="158" key="SettingsEditor" timestamp="1592219825691">
-      <screen x="0" y="23" width="1920" height="993" />
+    <state x="721" y="439" key="NewPhpFileDialog/0.23.1920.993@0.23.1920.993" timestamp="1592229670439" />
+    <state x="352" y="122" key="SettingsEditor" timestamp="1592234941094">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="352" y="122" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1592234941094" />
     <state x="469" y="158" key="SettingsEditor/0.23.1920.993@0.23.1920.993" timestamp="1592219825691" />
   </component>
 </project>

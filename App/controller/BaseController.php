@@ -11,6 +11,8 @@ class BaseController
 	protected function loadHeader($header = [])
 	{
 		$title = $header['title'] ?? '';
+		$username = $this->getSessionUsername();
+		
 		require 'App/view/partials/header_view.php';
 	}
 	
@@ -27,6 +29,12 @@ class BaseController
 		 *  $name = 'abc'
 		 */
 		require "App/view/{$pathView}.php";
+	}
+	
+	protected function getSessionUsername()
+	{
+		$user = $_SESSION['user'] ?? '';
+		return $user;
 	}
 }
 
