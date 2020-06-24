@@ -21,7 +21,6 @@ class HomeController extends BaseController
 	{
 		// lay du lieu tu home model
 		$data = [];
-		
 		$products = $this->db->getAllData();
 		$data['lstProducts'] = $products;
 		$data['name'] = 'Van Teo';

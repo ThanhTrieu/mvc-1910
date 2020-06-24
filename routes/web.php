@@ -6,6 +6,8 @@ if(!defined('ROOT_PATH')){
 	die('Can not access');
 }
 
+require_once 'App/config/constant.php';
+
 // la noi tiep nhan cac request gui len
 // index.php?c=home&m=index&name=test&age=100
 // index.php/home/index

@@ -2,41 +2,37 @@
 
 namespace App\model;
 
-/*
- * noi de xu ly du lieu
- */
-
 if(!defined('ROOT_PATH')){
-	die('Can not access');
+	die('can not access');
 }
 
 use App\config\Database as Model;
 use \PDO;
 
-class Home extends Model
+class Product extends Model
 {
 	public function __construct()
 	{
 		parent::__construct();
 	}
 	
-	// ten file va ten class giong nhau
-	public function getAllData()
+	public function getInfoDataProductById($id)
 	{
 		$data = [];
-		$sql = "SELECT * FROM `products`";
-		
+		$sql = "SELECT p.*, b.`name` AS `name_brand` FROM `products` AS p
+				INNER JOIN `brands` AS b ON b.`id` = p.`brand_id`
+				WHERE p.`id` = :id";
 		$stmt = $this->db->prepare($sql);
 		if($stmt){
-			// vi ko co tham so truyen vao cau lenh mysql nen ko can bindParam
-			// thuc thi cau lenh luon
+			$stmt->bindParam(':id', $id, PDO::PARAM_INT);
 			if($stmt->execute()){
 				if($stmt->rowCount() > 0){
-					$data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+					$data = $stmt->fetch(PDO::FETCH_ASSOC);
 				}
 			}
 			$stmt->closeCursor();
 		}
 		return $data;
 	}
+	
 }

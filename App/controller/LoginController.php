@@ -32,8 +32,16 @@ class LoginController extends BaseController
 			$password = strip_tags($password);
 			$checkLogin = $this->loginModel->checkUserLogin($username, $password);
 			if($checkLogin){
+				// update truong last_login trong db
+				$update = $this->loginModel->updateLastLogin($checkLogin['id']);
+				
 				// cho vao home
-				$_SESSION['user'] = $username;
+				$_SESSION['user'] = $checkLogin['username'];
+				$_SESSION['email'] = $checkLogin['email'];
+				$_SESSION['fullname'] = $checkLogin['fullname'];
+				$_SESSION['role'] = $checkLogin['role'];
+				$_SESSION['id'] = $checkLogin['id'];
+				
 				header("Location: ?c=home");
 			} else {
 				// quay lai giao dien form login
@@ -47,6 +55,10 @@ class LoginController extends BaseController
 		if(isset($_POST['btnLogout'])){
 			if(isset($_SESSION['user'])){
 				unset($_SESSION['user']);
+				unset($_SESSION['email']);
+				unset($_SESSION['fullname']);
+				unset($_SESSION['role']);
+				unset($_SESSION['id']);
 			}
 			header("Location: ?c=home");
 		}
