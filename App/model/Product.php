@@ -35,4 +35,33 @@ class Product extends Model
 		return $data;
 	}
 	
+	// lay ra tat ca nhung anh cua 1 san pham
+	public function getImageProductById($id)
+	{
+		$data = [];
+		$sql = "SELECT * FROM `image_product` AS a WHERE a.`product_id` = :id";
+		$stmt = $this->db->prepare($sql);
+		if($stmt){
+			$stmt->bindParam(':id', $id, PDO::PARAM_INT);
+			if($stmt->execute()){
+				if($stmt->rowCount() > 0){
+					$data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+				}
+				$stmt->closeCursor();
+			}
+		}
+		return $data;
+	}
+	
+	// lay ra tat ca cac phien ban thuoc vao san pham nay
+	public function getVersionProductById($id)
+	{
+		$data = [];
+		$sql = "SELECT v.`name` AS v.`name_version`, v.`id` AS v.`id_version`
+				FROM `product` AS p
+				INNER JOIN `version_prouct` AS vp ON vp.`product_id` = p.`id`
+				INNER JOIN `versions` AS v ON v.`id` = vp.`version_id`
+				WHERE p.`id` = :id";
+	}
+	
 }

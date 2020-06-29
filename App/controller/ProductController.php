@@ -28,6 +28,12 @@ class ProductController extends BaseController
 		if($infoProduct){
 			$data = [];
 			$data['info'] = $infoProduct;
+			// xu ly hien anh san pham
+			$imageProduct = $this->productModel->getImageProductById($idProduct);
+			$data['images'] = $imageProduct;
+			// hien thi phien ban
+			
+			
 			// load header
 			$header = [
 				'title' => 'This is home Detail product'

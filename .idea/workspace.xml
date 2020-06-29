@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71599d07-4923-4a02-80a2-787564c2833f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/config/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/config/constant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/controller/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/model/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/view/partials/not_found_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/view/product/detail_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controller/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/model/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/model/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/model/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/model/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/view/home/index_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/view/home/index_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/model/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/model/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/view/product/detail_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/view/product/detail_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -87,7 +77,8 @@
       <workItem from="1591861402168" duration="461000" />
       <workItem from="1591928611476" duration="345000" />
       <workItem from="1592216362177" duration="11205000" />
-      <workItem from="1592999430383" duration="9333000" />
+      <workItem from="1592999430383" duration="10443000" />
+      <workItem from="1593425184837" duration="3288000" />
     </task>
     <servers />
   </component>
@@ -100,11 +91,11 @@
     </state>
     <state x="541" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1591804892117" />
     <state x="721" y="439" key="NewPhpFileDialog/0.23.1920.993@0.23.1920.993" timestamp="1593008661170" />
-    <state x="352" y="124" key="SettingsEditor" timestamp="1593015935308">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="352" y="122" key="SettingsEditor" timestamp="1593429308211">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="352" y="117" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1592275595763" />
-    <state x="352" y="122" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1592234941094" />
+    <state x="352" y="122" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1593429308211" />
     <state x="352" y="124" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1593015935308" />
     <state x="469" y="158" key="SettingsEditor/0.23.1920.993@0.23.1920.993" timestamp="1592999449109" />
   </component>
