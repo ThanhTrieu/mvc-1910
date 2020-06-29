@@ -32,7 +32,17 @@ class ProductController extends BaseController
 			$imageProduct = $this->productModel->getImageProductById($idProduct);
 			$data['images'] = $imageProduct;
 			// hien thi phien ban
+			$versions = $this->productModel->getVersionProductById($idProduct);
+			$data['versions'] = $versions;
+			// hien thi mau sac san pham
+			$colors = $this->productModel->getColorProductById($idProduct);
+			$data['colors'] = $colors;
 			
+			$posts = $this->productModel->getDataPostProductById($idProduct);
+			$data['post'] = $posts;
+			
+			$property = $this->productModel->layThongTinKyThuat($idProduct);
+			$data['property'] = $property;
 			
 			// load header
 			$header = [

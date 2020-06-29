@@ -8,7 +8,7 @@
 	<title>Not found page</title>
 </head>
 <body>
-	<h1>Not found page</h1>
-	<a href="index.php"> Go home page</a>
+<h1>Not found page</h1>
+<a href="index.php"> Go home page</a>
 </body>
 </html>
